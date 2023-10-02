@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>OTP Verification</title>
+</head>
+<body>
+    <div class="container">
+        <h1>OTP Verification</h1>
+        <div class="status" id="status">Enter your email to get OTP.</div>
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <button id="sendOTP">Send OTP</button>
+        <div id="otpDiv">
+            <input type="text" id="otpInput" placeholder="Enter OTP" required>
+            <button id="verifyOTP">Verify OTP</button>
+        </div>
+    </div>
+    <div class="end">Made With &#x1F496; by Rishi & Digital Knights</div>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
